@@ -16,7 +16,7 @@ public class Mars {
 
         String landingLocation = "The Hill";
 
-        if(landingLocation == "The Plain"){
+        if(landingLocation.equals("The Plain")){
             System.out.println("Bbzzz Landing on the Plain");
         } else {
             System.out.println("ERROR!!! Flight plan already set. Landing on the Plain");
@@ -25,6 +25,7 @@ public class Mars {
         landing = landingCheck(15);
 
         new GuessingGame();
+        new MarsExpedition();
     }
 
     public static boolean landingCheck(int minutesLeft) throws InterruptedException{
