@@ -1,4 +1,3 @@
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class MarsExpedition {
@@ -49,7 +48,7 @@ public class MarsExpedition {
                 B: Toyota Camry
                 C: Toyota Rav4""");
         char selection = input.next().charAt(0);
-        String vehicle = "";
+        String vehicle;
         if(Character.toUpperCase(selection) == 'A'){
             vehicle = "Honda Accord";
         }
