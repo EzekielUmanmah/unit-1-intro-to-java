@@ -6,7 +6,6 @@ public class FindingsList {
 
         System.out.println("Welcome back traveler!");
 
-//        String[] rocksList = new String[]{"rock", "weird rock", "smooth rock", "not rock"};
         ArrayList<String> rockList = new ArrayList<>();
         rockList.add("rock");
         rockList.add("smooth rock");
